@@ -61,7 +61,7 @@ For the hard noise, apply class noise on top of the medium weak annotation noise
 
 
 ## Benchmark
-![image](https://github.com/mkimhi/noisy_labels/blob/main/chicken.pdf)
+![image](https://i.ibb.co/Sw28GY5b/chicken.jpg)
 
 
 
@@ -84,7 +84,7 @@ For the hard noise, apply class noise on top of the medium weak annotation noise
 |         | M-RCNN | R-101    | 37.0  | 33.7 | 30.7 | 27.0 |
 
 # Synthetic data
-![image](https://github.com/mkimhi/noisy_labels/blob/main/viper.pdf)
+![image](https://i.ibb.co/20hhRTBV/viper.jpg)
 
 <object data="[http://yoursite.com/the.pdf](https://github.com/mkimhi/noisy_labels/blob/main/viper.pdf)" type="application/pdf" width="700px" height="700px">
     <embed src="[http://yoursite.com/the.pdf](https://github.com/mkimhi/noisy_labels/blob/main/viper.pdf)">
