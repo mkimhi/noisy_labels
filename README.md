@@ -59,6 +59,36 @@ For the hard noise, apply class noise on top of the medium weak annotation noise
 
 
 
+
+## Benchmark
+![image](https://github.com/mkimhi/noisy_labels/blob/main/chicken.pdf)
+
+
+
+**Table 1: Evaluation Results of Instance Segmentation Models under Different Benchmarks (mAP)**
+
+*Note: CS-N stands for Cityscapes benchmark.*
+
+| Dataset | Model  | Backbone | Clean | Easy | Mid  | Hard |
+|---------|--------|----------|-------|------|------|------|
+| **COCO-N** | M-RCNN | R-50     | 34.6  | 27.9 | 24.8 | 22.3 |
+|         | YOLACT | R-50     | 28.5  | 26.4 | 23.3 | 20.8 |
+|         | SOLO   | R-50     | 35.9  | 25.2 | 17.1 | 12.4 |
+|         | HTC    | R-50     | 34.1  | -    | 28.4 | 25.5 |
+|         | M2F    | R-50     | 42.9  | 33.5 | 30.1 | 26.7 |
+|         | M-RCNN | R-101    | 36.2  | 28.8 | 31.8 | 23.7 |
+|         | M2F    | Swin-S   | 46.1  | 39.6 | 37.9 | 33.6 |
+|---------|--------|----------|-------|------|------|------|
+| **CS-N** | M-RCNN | R-50     | 36.1  | 26.4 | 22.0 | 16.3 |
+|         | YOLACT | R-50     | 19.3  | 19.1 | 17.1 | 16.3 |
+|         | M-RCNN | R-101    | 37.0  | 33.7 | 30.7 | 27.0 |
+
+# Synthetic data
+![image](https://github.com/mkimhi/noisy_labels/blob/main/viper.pdf)
+
+Upon acceptance we will publish the work with Synthetic data and noising it
+
+
 ## Citation
 
 
@@ -66,15 +96,7 @@ If you use this benchmark in your research, please cite this project.
 
 
 ```
-@misc{grad2024benchmarkinglabelnoiseinstance,
-      title={Benchmarking Label Noise in Instance Segmentation: Spatial Noise Matters}, 
-      author={Eden Grad and Moshe Kimhi and Lion Halika and Chaim Baskin},
-      year={2024},
-      eprint={2406.10891},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2406.10891}, 
-}
+Soon
 ```
 
 
@@ -88,4 +110,3 @@ Please make sure you use it with proper licenced Datasets.
 We use [MS-COCO/LVIS](https://cocodataset.org/#termsofuse) and [Cityscapes](https://www.cityscapes-dataset.com/license/)
 
 
-![image](https://github.com/mkimhi/noisy_labels/blob/main/teas.png)
