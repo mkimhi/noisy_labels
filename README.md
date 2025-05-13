@@ -86,12 +86,11 @@ For the hard noise, apply class noise on top of the medium weak annotation noise
 # Synthetic data
 ![image](https://github.com/mkimhi/noisy_labels/blob/main/viper.pdf)
 
-<iframe
-  src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://github.com/mkimhi/noisy_labels/blob/main/viper.pdf"
-  width="100%"
-  height="600px"
-  style="border: none;">
-</iframe>
+<object data="[http://yoursite.com/the.pdf](https://github.com/mkimhi/noisy_labels/blob/main/viper.pdf)" type="application/pdf" width="700px" height="700px">
+    <embed src="[http://yoursite.com/the.pdf](https://github.com/mkimhi/noisy_labels/blob/main/viper.pdf)">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
 
 Upon acceptance we will publish the work with Synthetic data and noising it
