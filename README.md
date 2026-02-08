@@ -96,15 +96,26 @@ For the hard noise, apply class noise on top of the medium weak annotation noise
 Upon acceptance we will publish the work with Synthetic data and noising it
 
 
+## Datasets (Hugging Face Hub)
+
+We publish the curated datasets / noisy variants on the Hugging Face Hub.
+See: `docs/HF_DATA.md`.
+
 ## Citation
 
+If you use this benchmark or datasets in your research, please cite:
 
-If you use this benchmark in your research, please cite this project.
-
-
+```bibtex
+@misc{kimhi_noisy_annotations_instance_segmentation,
+  title        = {A Benchmark for Learning with Noisy Labels in Instance Segmentation},
+  author       = {Kimhi, Moshe and others},
+  year         = {2026},
+  howpublished = {arXiv},
+  note         = {TODO: add arXiv identifier / DOI / URL},
+}
 ```
-Soon
-```
+
+Dataset citations (as applicable): see `CITATION.bib`.
 
 
 ## License
