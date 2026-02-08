@@ -106,12 +106,14 @@ See: `docs/HF_DATA.md`.
 If you use this benchmark or datasets in your research, please cite:
 
 ```bibtex
-@misc{kimhi_noisy_annotations_instance_segmentation,
-  title        = {A Benchmark for Learning with Noisy Labels in Instance Segmentation},
-  author       = {Kimhi, Moshe and others},
-  year         = {2026},
-  howpublished = {arXiv},
-  note         = {TODO: add arXiv identifier / DOI / URL},
+@misc{kimhi2025noisyannotationssemanticsegmentation,
+      title={Noisy Annotations in Semantic Segmentation},
+      author={Moshe Kimhi and Omer Kerem and Eden Grad and Ehud Rivlin and Chaim Baskin},
+      year={2025},
+      eprint={2406.10891},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2406.10891},
 }
 ```
 

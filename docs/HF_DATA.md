@@ -6,11 +6,13 @@ We also publish curated datasets and noisy-label variants on the Hugging Face Hu
 
 ## Datasets
 
-> TODO: fill in the exact dataset repo IDs below (e.g. `username/dataset_name`).
+Hugging Face collection:
+- https://huggingface.co/collections/Kimhi/noisy-labels-for-instance-segmentation-coco-format
 
-- **COCO-N**: `<HF_DATASET_ID_COCO_N>`
-- **VIPER-N**: `<HF_DATASET_ID_VIPER_N>`
-- (Optional) **VIPER curated as COCO**: `<HF_DATASET_ID_VIPER_AS_COCO>`
+Datasets:
+- **COCO-N**: (see collection)
+- **VIPER-N**: (see collection)
+- **VIPER curated as COCO**: (see collection)
 
 ## Quick usage
 
