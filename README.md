@@ -1,7 +1,7 @@
 # Noisy-Labels-Instance-Segmentation
 ## This is the official repo for the paper A Benchmark for Learning with Noisy Labels in Instance Segmentation
 
-![paper meme](https://github.com/mkimhi/noisy_labels/blob/main/meme.jpg)
+![paper meme](https://anonymous.4open.science/r/noisy_labels-D223/meme.jpg))
 
 ### ReadMe:
 Important! The original annotations should be in coco format.
@@ -60,46 +60,11 @@ For the hard noise, apply class noise on top of the medium weak annotation noise
 
 
 
-## Benchmark
-![image](https://i.ibb.co/Sw28GY5b/chicken.jpg)
-
-
-# Synthetic data
-![image](https://i.ibb.co/20hhRTBV/viper.jpg)
-
-<object data="[http://yoursite.com/the.pdf](https://github.com/mkimhi/noisy_labels/blob/main/viper.pdf)" type="application/pdf" width="700px" height="700px">
-    <embed src="[http://yoursite.com/the.pdf](https://github.com/mkimhi/noisy_labels/blob/main/viper.pdf)">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
-
-
-Upon acceptance we will publish the work with Synthetic data and noising it
 
 
 ## Datasets (Hugging Face Hub)
 
-We publish the curated datasets / noisy variants on the Hugging Face Hub.
-See: `docs/HF_DATA.md`.
-
-## Citation
-
-If you use this benchmark or datasets in your research, please cite:
-
-```bibtex
-@misc{kimhi2025noisyannotationssemanticsegmentation,
-      title={Noisy Annotations in Semantic Segmentation},
-      author={Moshe Kimhi and Omer Kerem and Eden Grad and Ehud Rivlin and Chaim Baskin},
-      year={2025},
-      eprint={2406.10891},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2406.10891},
-}
-```
-
-Dataset citations (as applicable): see `CITATION.bib`.
-
+upon acceptance, but you can create the annotations by the script above
 
 ## License
 
